@@ -22,6 +22,12 @@ typedef unsigned long long ull;
 const int N=1e6, M = 1e6, mod = 1e9+7, inf=1e18;
 const double eps = 1e-15;
 //2025.3.15
+
+// 使用随机数，需要在main函数重新设置随机种子，srand(time(0));
+unsigned long long rnd() {
+    return ( (unsigned long long)rand() << 32 ) ^ rand();
+}
+
 int n,m,k;
 
 void solve(){
