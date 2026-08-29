@@ -1,0 +1,6 @@
+BasedOnStyle: Google
+Language: Cpp
+Standard: Cpp17
+IndentWidth: 4
+AllowShortFunctionsOnASingleLine: Inline
+ColumnLimit: 100
